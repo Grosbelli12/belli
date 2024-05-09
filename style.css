@@ -1,0 +1,27 @@
+body{
+    margin: 0%;
+}
+H1{
+    margin: 0%;
+}
+header{
+    background-color: bisque;
+    display:flex;/* Deixa tudo na mesma linha */
+    justify-content: space-between;/* Organiza os botão com espaçamento ou pro meio e final e só funciona com display:fley */
+    padding: 10px 20px; 
+}
+#box-categorias button{
+
+    background-color: aqua; 
+}
+#box-ordenar button{
+    background-color: rgb(51, 241, 146); 
+}
+
+#box-categorias button, 
+#box-ordenar button {
+   border-radius: 6px;
+   border: o;
+   color: black;
+   padding: 10px 20px 10px 20px;/* espaço do texto na caixa */
+}
