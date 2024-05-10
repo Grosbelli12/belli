@@ -22,12 +22,34 @@ document.addEventListener('DOMContentLoaded',function() {
  const notaMedia = 3;
 
  if(notaMedia >= 6){
-  alert("Aluno passou");
+  //alert("Aluno passou");
  }
  else if (notaMedia >= 4 && notaMedia < 6) {
-alert("aluno quase passou")
+  //alert("aluno quase passou")
  }
  else {
-  alert("aluno reprovou")
+  //alert("aluno reprovou")
  }
 });
+    //------Operadores------//
+    // = sinal de atribuição, recebe
+    // == sinal de comparação
+    // === verifica se os dois são iguai e têm o mesmo tipo de dados
+    // != se é diferente
+    // !== se é estritamente diferente 
+    // > maior
+    // < menor   
+
+    const num = 6;
+    if(num == 6){
+      //alert("é igual");
+    }
+else {
+  //alert("não é igual");
+}
+const professor = "João"
+if (professor == "Lucas") {
+  console.log('Sim é Lucas')
+  }else {
+console.log('Não é Lucas')
+  }
