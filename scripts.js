@@ -84,4 +84,10 @@ const segundoParametro = "agora com dois parametros";
     profissao:'Programadora'
   }
   console.log(pessoa['profissao']); // [] é oq vai puxar um determinado item que voce desejar 
+   //------ / ---------
+   const numeros = ["A", "B", "C", "D"]
+
+   numeros.forEach(nume => {
+    console.log(nume)
+   })
 });
