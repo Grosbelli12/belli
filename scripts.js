@@ -30,26 +30,42 @@ document.addEventListener('DOMContentLoaded',function() {
  else {
   //alert("aluno reprovou")
  }
-});
-    //------Operadores------//
-    // = sinal de atribuição, recebe
-    // == sinal de comparação
-    // === verifica se os dois são iguai e têm o mesmo tipo de dados
-    // != se é diferente
-    // !== se é estritamente diferente 
-    // > maior
+ //------Operadores------//
+ // = sinal de atribuição, recebe
+ // == sinal de comparação
+ // === verifica se os dois são iguai e têm o mesmo tipo de dados
+ // != se é diferente
+ // !== se é estritamente diferente 
+ // > maior
     // < menor   
-
+    
     const num = 6;
     if(num == 6){
       //alert("é igual");
     }
-else {
-  //alert("não é igual");
-}
-const professor = "João"
+    else {
+      //alert("não é igual");
+    }
+    const professor = "João"
 if (professor == "Lucas") {
   console.log('Sim é Lucas')
-  }else {
-console.log('Não é Lucas')
-  }
+}else {
+  console.log('Não é Lucas')
+}
+// --------- / --------
+// Funções são blocos blocos de código que podem ser chamados e reutilizados//
+
+//}
+//primeiraoFuncao();
+ 
+// dentro dos parenteses da função vai osparâmetros/propriedades essenciais
+function primeiraFuncao(parametro, segundoParametro) {
+return parametro + segundoParametro;
+} 
+const parametro = " essa é uma função com parâmetro";
+const segundoParametro = "agora com dois parametros"; 
+
+  console.log(primeiraFuncao(parametro, segundoParametro));
+  
+
+});
