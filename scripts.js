@@ -66,6 +66,22 @@ const parametro = " essa é uma função com parâmetro";
 const segundoParametro = "agora com dois parametros"; 
 
   console.log(primeiraFuncao(parametro, segundoParametro));
-  
 
+  //--------- / ----------
+  //arrays em javascript são estruturas de dados que permitem 
+  //armazenar uma coleção ordenada de elementos( strings, números, objetos.arrays)
+
+  let primeiroarray = [ 'Lucas','João', 'Paulo', 'Marcos'];
+  console.log(primeiroarray[2]); //número 2  vai puxar o que estiver na var conforme o número
+
+  //------ / ---------
+
+  //Os objetos são coleções NÃO ORDENADAS de pares de chave-valor,
+  //onde cada valor é associado á uma chave única 
+  let pessoa = {
+    nome: 'Maria',
+    idade: '22' ,
+    profissao:'Programadora'
+  }
+  console.log(pessoa['profissao']); // [] é oq vai puxar um determinado item que voce desejar 
 });
