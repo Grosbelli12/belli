@@ -1,3 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-    alert(123);
+    document.body.addEventListener('click', function(){
+        alert('123')
+    })
 })
