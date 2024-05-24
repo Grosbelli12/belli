@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
 
     const baseImagens = {
-        todas: ['imagem.png','cidade.png','animal.png','natureza.png'],
+        todas: ['cidade.png','animal.png','natureza.png'],
         natureza: ['natureza.png'],
         cidade: ['cidade.png'],
         animal: ['animal.png'],
