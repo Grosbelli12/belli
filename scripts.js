@@ -9,8 +9,9 @@ document.addEventListener('DOMContentLoaded', function(){
     function carregaImagens(categoria){
         //Selecionar elementos HTML com base em um seletor
         const galeria = document.querySelector("#galeria-imagens");
+        galeria.innerHTML=''; //limpar bloco, apaga tudo dentro dele
 
-        const imagens = baseImagens['todas']
+        const imagens = baseImagens[categoria]
         
         imagens.forEach(img => { 
             console.log(img);
@@ -19,9 +20,13 @@ document.addEventListener('DOMContentLoaded', function(){
     }
     carregaImagens('todas');
     document.body.addEventListener('click', function(event){ //evento clique    '
-    if(event.target.classList.contains('botao-categoria')) {
-        alert(123);
-    };  //acessa a lista de classe de onde clicou e //procura pela classe botao-categoria
+    if(event.target.classList.contains('botao-categoria')) {//acessa a lista de classe de onde clicou e //procura pela classe botao-categoria
 
-    })
-})
+        const categoria = event.target.dataset.categoria;
+        
+        //alert(categoria);
+        carregaImagens(categoria);
+    }; 
+
+    });
+});
