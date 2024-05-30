@@ -25,3 +25,11 @@ header{
    color: black;
    padding: 10px 20px 10px 20px;/* espaço do texto na caixa */
 }
+#galeria-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#galeria-imagens img{
+    max-width: 100%;
+}
