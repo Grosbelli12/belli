@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function(){
         
         imagens.forEach(img => { 
             console.log(img);
-            galeria.innerHTML = '<div> <img src="imagens/' + img + '"/> </div>';
+            galeria.innerHTML += '<div> <img src="imagens/' + img + '"/> </div>';
         })
     }
     carregaImagens('todas');
