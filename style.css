@@ -27,9 +27,9 @@ header{
 }
 #galeria-imagens{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
     justify-content: space-around;
 }
 #galeria-imagens img{
-    max-width: 100%;
+    max-width: 40%;
 }
