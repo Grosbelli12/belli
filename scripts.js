@@ -34,9 +34,6 @@ document.addEventListener('DOMContentLoaded', function(){
     imagens.forEach(imagem => {
         galeria.appendChild(imagem);//adiciona as imagens novamente, agora ordenada
     })
-
-
-
     }
     carregaImagens('todas');
     document.body.addEventListener('click', function(event){ //evento clique    '
